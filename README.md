@@ -19,7 +19,7 @@
 ### Features
 ---
 
-- [ ] Importar Bibliotecas
+- [x] Importar Bibliotecas
 - [ ] Recuperar Dados das Ações
 - [ ] Enviar Pelo Whatsapp
 
