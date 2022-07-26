@@ -20,7 +20,7 @@
 ---
 
 - [x] Importar Bibliotecas
-- [ ] Recuperar Dados das Ações
+- [x] Recuperar Dados das Ações
 - [ ] Enviar Pelo Whatsapp
 
 ### 🛠 Tecnologias
