@@ -10,3 +10,5 @@ except KeyError:
 
 SERVER_SALES_ORDER_ROBOT_PORT = os.environ.get('SERVER_SALES_ORDER_ROBOT_PORT')
 
+NUMBER_WHATSAPP = os.environ.get('NUMBER_WHATSAPP')
+
