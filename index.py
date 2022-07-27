@@ -9,7 +9,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from config.settings import SERVER_WHATS_FINANCE_ROBOT_PORT
 
 from config import routes
-# from service import 
+from service.whats_finance_robot import whats_finance_robot
 from utils import errorLogger, errorTrigger, infoLogger
 
 app = Flask(__name__)

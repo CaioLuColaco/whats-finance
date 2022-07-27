@@ -21,10 +21,13 @@
 
 - [x] Importar Bibliotecas
 - [x] Recuperar Dados das Ações
-- [ ] Enviar Pelo Whatsapp
+- [x] Enviar Pelo Whatsapp
+- [ ] Ajustar Cron
+
 
 ### 🛠 Tecnologias
 ---
+
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
