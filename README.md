@@ -11,7 +11,7 @@
 
 <h3 align="center">
  <a href="#features">Features</a> •
- <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#autor">Autor</a>
 </h3>
