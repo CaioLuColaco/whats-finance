@@ -8,7 +8,8 @@ except KeyError:
     load_dotenv()
 
 
-SERVER_SALES_ORDER_ROBOT_PORT = os.environ.get('SERVER_SALES_ORDER_ROBOT_PORT')
+SERVER_WHATS_FINANCE_ROBOT_PORT = os.environ.get('SERVER_WHATS_FINANCE_ROBOT_PORT')
 
 NUMBER_WHATSAPP = os.environ.get('NUMBER_WHATSAPP')
 
+LOG_PATH = os.environ.get('LOG_PATH')

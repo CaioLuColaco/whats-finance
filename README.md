@@ -22,7 +22,8 @@
 - [x] Importar Bibliotecas
 - [x] Recuperar Dados das Ações
 - [x] Enviar Pelo Whatsapp
-- [ ] Ajustar Cron
+- [x] Ajustar Cron
+- [ ] Adicionar os Logs
 
 
 ### 🛠 Tecnologias
