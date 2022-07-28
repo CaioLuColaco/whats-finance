@@ -13,23 +13,15 @@ from service.whats_finance_robot import whats_finance_robot
 from utils import errorLogger, errorTrigger, infoLogger
 
 app = Flask(__name__)
+
 routes(app)
 
 scheduler = BackgroundScheduler()
-# scheduler.add_job(, 'cron', hour='*', minute='0')
+scheduler.add_job(whats_finance_robot, trigger='cron', hour='10', minute='00')
 scheduler.start()
 
 try:
-    infoLogger(os.path.basename(__file__), f"""
-            ╔═══════════ PYTHON ════════════╗
-            ║                               ║
-            ║             COLAÇO            ║
-            ║      ROBOT - WHATS FINANCE    ║
-            ║                               ║
-            ║   listening on port - {SERVER_WHATS_FINANCE_ROBOT_PORT}    ║
-            ║                               ║
-            ╚═══════════════════════════════╝
-    """)
+    infoLogger(os.path.basename(__file__), (f""" PYTHON - COLACO | ROBOT - WHATS FINANCE | listening on port - {SERVER_WHATS_FINANCE_ROBOT_PORT} """))
     serve(app, port=SERVER_WHATS_FINANCE_ROBOT_PORT)
 except Exception as error:
     # Prettify Error 

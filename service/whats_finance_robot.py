@@ -14,9 +14,3 @@ def whats_finance_robot():
 
     send_whatsapp(ativo, df)
     print("Encerrou")
-
-whats_finance_robot()
-
-
-
-
