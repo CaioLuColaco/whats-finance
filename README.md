@@ -23,7 +23,7 @@
 - [x] Recuperar Dados das Ações
 - [x] Enviar Pelo Whatsapp
 - [x] Ajustar Cron
-- [ ] Adicionar os Logs
+- [x] Adicionar os Logs
 
 
 ### 🛠 Tecnologias
